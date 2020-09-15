@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+@font-face {
+    src: url(..//fonts/Poppins-Medium.ttf);
+    font-family: Poppins;
+ }
+
+.container{
+    width: 1600px;
+}
+
+.top-text{
+    float: left;
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fcae61;
+    padding: 105px 130px 0 212px;
+}
+
+.top-text1{
+    color: #242f51;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    font-size: 16px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #242f51;
+    text-decoration: none;
+    padding: 105px 35px 0 0;
+    display: inline-block;
+}
+
+.navbar li a:hover{
+    color: #fcae61;
+}
+
+.button {
+    background-color: #2500f9;
+    display: inline-block;
+    border-radius: 28.5px;
+    padding: 18px 46px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #ffffff;
+    margin: 0 210px 0 25px;
+}
+
+.button:hover {
+    background-color: #2308bb;
+}
+
+.images-top{
+    background-image: url(..//img/Home.png);
+    width: 1600px;
+    height: 850px;
+    top: 160px;
+    position: relative;
+}
+
+.img-text{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 330px 0 0 280px;
+    line-height: 60px;
+}
+
+.img-comment{
+    font-size: 18px;
+    margin-left: 280px;
+}
+
+#img-button{
+    float: left;
+    margin-left: 280px;
+    margin-right: 30px;
+}
+
+.img-link{
+    float: left;
+    color: royalblue;
+    line-height: 50px;
+}
+
+.img-link:hover{
+    color: rgb(42, 61, 119);
+}
+
+/* Trusted by companies like 4 */
+
+.logo{
+    width: 1600px;
+    background-color: #ffffff;
+    margin-top: 160px;
+}
+
+.logo-text{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #242f51;
+    text-align: center;
+    padding-top: 115px;
+}
+
+.logo-img{
+    margin-left: 32%;
+}
+
+.logo-img img{
+    padding: 40px 35px 160px 35px;
+}
+
+/* Smart jackpots that you may love this anytime & anywhere */
+
+.awesome{
+    width: 1600px;
+}
+
+.awesome-left{
+    width: 49%;
+    float: left;
+}
+
+.awesome-right{
+    width: 49%;
+    float: left;
+}
+
+.awesome-right h2{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #242f51;
+    margin-top: 20px;
+}
+
+.awesome-right img{
+    float: left;
+    margin: 110px 20px 50px 20px;
+}
+
+.icon-text{
+    margin-top: 85px;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #f55767;
+}
+
+.icon-text1{
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #2563ff;
+}
+
+.icon-text2{
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #40975f;
+}
+.awesome-right p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368;
+}
+
+.awesome-text{
+    border-right: 1px solid gray;
+    margin: 80px 0 0 280px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.awesome-text1{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368;
+    margin: 150px 0 0 50px;
+}
+
+/* Automatic Payouts column 3 */
+
+.row{
+    display: inline-block;
+    margin: 100px 0 0 170px;
+}
+
+.column {
+    float: left;
+    width: 26%;
+    padding-left: 95px;
+}
+
+.column h2{
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #f55767;
+}
+
+.column h3{
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #2563ff;
+}
+
+.column h4{
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #40975f;
+}
+
+/* Designed & built by the latest code integrati */
+
+.design{
+    width: 100%;
+    height: 760px;
+}
+
+.design-img{
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.design-text{
+    float: left;
+    width: 50%;
+    padding: 260px 0 0 60px;
+}
+
+.design-text h2{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.design-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368
+}
+
+#design-button{
+    margin: 40px 0 0 0;
+}
+
+/* Why you should choose our app */
+
+.rows{
+    display: inline-block;
+    margin: 100px 0 0 220px;
+}
+
+.choose-app{
+    padding: 80px 0 60px 0;
+    border-top: 1px solid rgb(201, 195, 195);
+}
+
+.choose-app h2{
+    text-align: center;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.choose-app p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368;
+}
+
+.choose-app h5{
+    text-align: center;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.choose-img{
+    margin-left: 85px;
+}
+
+/* Ultimate features that we built */
+
+.ultimate-left{
+    width: 60%;
+    float: left;
+    padding: 80px 0 170px 260px
+}
+
+.ultimate-right{
+    width: 40%;
+    float: left;
+}
+
+.ultimate-right img{
+    margin: 70px 0 210px 0;
+}
+
+.ultimate-left h2{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.ultimate-left p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368;
+    padding-right: 45px;
+}
+
+.ultimate-row{
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.column-left {
+    float: left;
+    width: 49%;
+}
+
+.column-left h5{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #242f51;
+    padding-top: 25px;
+}
+
+/* images clients */
+
+.client-left{
+    float: left;
+    width: 50%;
+}
+
+/* Meet Client Satisfaction by using product */
+
+.client-right{
+    float: left;
+    width: 50%;
+    height: 800px;
+}
+
+.client-right h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.client-right h4{
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.client-right h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #242f51;
+    padding-top: 75px;
+}
+
+.client-right h6{
+    float: left;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #616368;
+}
+
+.fa-star{
+    font-size: 20px;
+    line-height: 75px;
+    color: #ffcc00;
+
+}
+
+.client-img{
+    float: left;
+    padding: 60px 30px 0 0;
+}
+
+.icons{
+    padding-right: 210px;
+    float: right;
+}
+
+.fa-arrow-circle-left{
+    padding-right: 25px;
+    color: #e0dedb;
+    cursor: no-drop;
+}
+
+.fa-arrow-circle-right:hover{
+    color: #3a38af;
+}
+
+/* Frequently asked question */
+
+.contact-block{
+    margin: auto;
+    width: 945px;
+    height: 256px;
+    background-color: #f5f7fa;
+    padding: 25px 58px 20px 50px;
+}
+
+.contact-block h3{
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.contact-block p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368;
+}
+
+#contact-plus{
+    padding-bottom: 100px;
+    border-bottom: 1px solid gray;
+}
+
+.contact-plus{
+    width: 945px;
+    height: 63px;
+    background-color: #f5f7fa;
+    margin: auto;
+    margin-top: 12px;
+    padding-left: 50px;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 500;
+    color: #242f51;
+}
+
+.fa-plus{
+    color: #242f51;
+    float: right;
+    padding: 20px 40px 0 0;
+}
+
+/* Download our App now */
+
+.download-left{
+    float: left;
+    width: 50%;
+    height: 430px;
+}
+
+.download-left h1{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #242f51;
+    padding: 90px 0 25px 185px;
+}
+
+.download-left p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #616368;
+    padding-left: 185px;
+}
+
+.download-img1 {
+    margin: 45px 30px 0 185px;
+}
+
+/* Footer */
+
+.footer{
+    height: 532px;
+    background-color: #09142e;
+    margin-top: -72px;
+    border-top: 1px solid #bb8b03;
+}
+
+.footer-text{
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fcae61;
+    padding: 100px 0 0 690px;
+}
+
+.footer-text1{
+    color: #ffffff;
+}
+
+.footer-navbar {
+   padding-left: 500px;
+}
+
+.footer-navbar li {
+    display: inline;
+}
+
+.footer-navbar li a {
+    font-size: 16px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 45px 35px 0 0;
+    display: inline-block;
+}
+
+.footer-navbar li a:hover{
+    color: #fcae61;
+}
+
+.fa-icon{
+    padding-left: 645px;
+}
+
+.fa-icon i{
+    padding: 40px 10px 0 10px;
+    color: #273043;
+}
+
+.fa-slack{
+    color: #ffffff !important; 
+}
+
+.footer-bottom{
+    font-size: 14px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #50555f;
+    padding: 70px 0 0 535px;
+}
